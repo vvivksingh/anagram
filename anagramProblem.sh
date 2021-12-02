@@ -8,10 +8,12 @@ prep() {
 isAnagram() {
    a=$(prep "$1")
    b=$(prep "$2")
-   [[ $a = $b ]] && echo "yes" || echo "no";
+   [[ $a = $b ]] && echo "Yes, $word1 and $word2 are anagrams " || echo "No, $word1 and $word2 are not anagrams ";
 }
 
 read -p "Enter 1st word : " word1
 read -p "Enter 2nd word : " word2
 
 isAnagram "$word1" "$word2"
+
+echo "feature branch added"

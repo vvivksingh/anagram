@@ -16,4 +16,5 @@ read -p "Enter 2nd word : " word2
 
 isAnagram "$word1" "$word2"
 
-echo "feature branch added"
+echo "feature branch added"0
+echo "added on remote repository"

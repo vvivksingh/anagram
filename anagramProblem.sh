@@ -19,4 +19,4 @@ isAnagram "$word1" "$word2"
 echo "feature branch added"0
 echo "added on remote repository"
 echo "added on local repository"
-
+echo "pulling and then pushing"
